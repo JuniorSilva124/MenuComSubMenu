@@ -1,0 +1,40 @@
+body{
+    background: black
+}
+
+li{
+    list-style: none; /*remove a bolinha do li*/
+    float: left;
+    
+    width: 200px; 
+    height: auto;
+    text-align: center;
+}
+
+#menuprincipal li{
+    margin-left: 100px;
+}
+
+#submenu li{
+    margin-left: 0px;
+}
+
+ul{
+    padding: 0px;
+}
+
+#submenu{
+    display: none;
+}
+nav{
+    color: white;
+    width: auto;
+    height: 50px;
+    background: blue;
+    text-align: center;
+    border: 2px solid red;
+}
+
+.centro{
+    margin-left: 250px;
+}
